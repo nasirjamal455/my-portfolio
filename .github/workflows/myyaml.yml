@@ -32,9 +32,9 @@ jobs:
       uses: borales/actions-yarn@v2.3.0
        
 # will run build
-    
-    - name: Yarn Build
-      run: yarn build
+  
+    - name:  Build
+      run: build
     
     - name: installing Surge
       run: npm install -g surge
