@@ -33,8 +33,7 @@ jobs:
        
 # will run build
   
-    - name:  Build
-      run: build
+ 
     
     - name: installing Surge
       run: npm install -g surge
